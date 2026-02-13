@@ -1,5 +1,10 @@
 x.py
 yarn.lock
+# Ignore build artifacts and secrets
+backend/open_webui/frontend/
+.webui_secret_key
+backend/open_webui_data.zip
+PROJECT_STRUCTURE.md
 .DS_Store
 node_modules
 /build
